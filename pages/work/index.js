@@ -31,7 +31,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0 xl:hidden md:hidden"
             >
-              Let's work together to bring your projects to life.
+              Let&apos;s work together to bring your projects to life.
             </motion.p>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -43,8 +43,8 @@ const Work = () => {
               Experienced full-stack software engineer with expertise in React,
               Node, Ruby on Rails, and Nestjs, along with certifications in
               Microsoft Azure and GitLab. I have hands-on experience deploying
-              applications on cloud services like AWS. Let's collaborate on your
-              projects to ensure not only robust development but also
+              applications on cloud services like AWS. Let&apos;s collaborate on
+              your projects to ensure not only robust development but also
               streamlined deployment and management.
             </motion.p>
           </div>
