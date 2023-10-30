@@ -6,7 +6,6 @@ import "swiper/css/pagination";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
-import { RxArrowTopRight } from "react-icons/rx";
 import Image from "next/image";
 import { HiArrowRight } from "react-icons/hi2";
 
