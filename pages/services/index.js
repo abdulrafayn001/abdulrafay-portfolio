@@ -28,10 +28,13 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              From web development to consulting, DevOps integration, database
-              management, and cloud solutions, I offer expertise to elevate your
-              success. Explore how I can help you reach new heights in the
-              digital landscape.
+              <span className="hidden md:inline xl:inline">
+                From web development to consulting, DevOps integration, database
+                management, and cloud solutions, I offer expertise to elevate
+                your success.
+              </span>{" "}
+              Explore how I can help you reach new heights in the digital
+              landscape.
             </motion.p>
           </div>
           {/* sidebar */}

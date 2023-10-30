@@ -23,6 +23,7 @@ import {
   SiCircleci,
   SiGithubactions,
   SiGitlab,
+  SiHeroku,
 } from "react-icons/si";
 
 import Circles from "../../components/Circles";
@@ -57,8 +58,9 @@ const aboutData = [
         icons: [
           <FaAws key={7} />,
           <SiAzuredevops key={8} />,
-          <SiAwslambda key={9} />,
-          <SiAwsamplify key={10} />,
+          <SiHeroku key={9} />,
+          <SiAwslambda key={10} />,
+          <SiAwsamplify key={11} />,
         ],
       },
       {
@@ -125,7 +127,7 @@ const About = () => {
       >
         <Avatar />
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto mt-8 xl:mt-0 md:mt-0 h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
             variants={fadeIn("right", 0.2)}
