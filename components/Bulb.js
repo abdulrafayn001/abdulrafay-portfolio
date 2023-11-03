@@ -9,6 +9,7 @@ const Bulb = () => {
         height={200}
         className="w-full h-full"
         alt=""
+        loading="eager"
       />
     </div>
   );

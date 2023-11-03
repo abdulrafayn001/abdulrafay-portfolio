@@ -61,6 +61,7 @@ const TestimonialSlider = () => {
                           alt=""
                           width={100}
                           height={100}
+                          loading="eager"
                         />
                       </Link>
                     ) : (
@@ -69,6 +70,7 @@ const TestimonialSlider = () => {
                         alt=""
                         width={100}
                         height={100}
+                        loading="eager"
                       />
                     )}
                   </div>
