@@ -40,6 +40,7 @@ const Nav = () => {
             className={`relative flex items-center group hover:text-accent transition-all duration-300 ${
               link.path === pathname && "text-accent"
             }`}
+            prefetch={true}
             href={link.path}
             key={index}
           >

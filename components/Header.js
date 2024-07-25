@@ -10,10 +10,10 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           <Link href={"/"}>
             <Image
-              src={"/logo.png"}
+              src={"/logo.avif"}
               width={220}
               height={48}
-              alt=""
+              alt="Logo of Abdul Rafay, software engineer, used in the header of portfolio project"
               priority={true}
             />
           </Link>

@@ -94,7 +94,7 @@ const aboutData = [
     ],
   },
   {
-    title: "credentials",
+    title: "certifications",
     info: [
       {
         title: "Computer Science - University of Central Punjab, Pakistan",
